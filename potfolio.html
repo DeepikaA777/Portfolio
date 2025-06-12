@@ -1,0 +1,1779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>My Portfolio</title>
+  <style>
+   body {
+
+            font-family: League Spartan;
+            background: linear-gradient(to top, #D3FFFA, #FFFFFF);
+            margin: 0;
+            padding: 0;
+            font-size:20px;
+    }
+
+    header {
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+      color: black;
+      text-align: center;
+      weight:bold;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      font-family: 'Poppins', sans-serif;
+      cursor:pointer; 
+    }
+     
+    header h1 {
+  font-size: 75px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  -webkit-text-stroke: 2px white;
+  text-stroke: 1px white;
+  } 
+   header h2 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+  }
+   header h3 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+  }
+
+footer {
+      background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+      color: black;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    section {
+     padding:50px;
+     margin-bottom:50px
+    }
+
+ 
+
+    li{
+    margin-bottom:10px
+    }
+
+
+    .project1{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    }
+ .project1 h1{
+    font-size: 35px;
+    font-family: League Spartan;
+}
+.project1 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project2{
+      background-color: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      text-align: center;
+      margin-top: 50px;
+    }
+.project2 h1{
+    font-size: 35px;
+    font-family: League Spartan;
+}
+.project2 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+    
+.project3{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project3 h1{
+    font-size: 35px;
+    font-family: League Spartan;
+}
+.project3 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+ 
+.project4{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project4 h1{
+    font-size: 35px;
+    font-family: League Spartan;
+}
+.project4 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+ 
+.project5{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project5 h1{
+    font-size: 35px;
+    font-family: League Spartan;
+}
+.project5 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+
+.project6{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project6 h1{
+    font-size: 40px;
+    font-family: League Spartan;
+}
+.project6 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project6 h5{
+    font-size: 35px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:10px;
+}
+
+.project7{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project7 h1{
+    font-size: 45px;
+    font-family: League Spartan;
+}
+.project7 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project7 h2{
+    font-size: 40px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:30px;
+}
+ 
+.project8{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project8 h1{
+    font-size: 45px;
+    font-family: League Spartan;
+}
+.project8 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project8 h5{
+    font-size: 40px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:30px;
+}
+
+.project9{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project9 h1{
+    font-size: 45px;
+    font-family: League Spartan;
+}
+.project9 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project9 h5{
+    font-size: 40px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:30px;
+}
+
+.project10{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project10 h1{
+    font-size: 45px;
+    font-family: League Spartan;
+}
+.project10 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project10 h5{
+    font-size: 40px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:30px;
+}
+
+.project11{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project11 h1{
+    font-size: 45px;
+    font-family: League Spartan;
+}
+.project11 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project11 h5{
+    font-size: 40px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:30px;
+}
+
+.project12{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project12 h1{
+    font-size: 45px;
+    font-family: League Spartan;
+}
+.project12 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project12 h5{
+    font-size: 40px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:30px;
+}
+
+.project13{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project13 h1{
+    font-size: 45px;
+    font-family: League Spartan;
+}
+.project13 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project13 h5{
+    font-size: 40px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:30px;
+}
+
+.project14{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project14 h1{
+    font-size: 45px;
+    font-family: League Spartan;
+}
+.project14 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project14 h5{
+    font-size: 40px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:30px;
+}
+
+.project15{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project15 h1{
+    font-size: 45px;
+    font-family: League Spartan;
+}
+.project15 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project15 h5{
+    font-size: 40px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:30px;
+}
+
+.project16{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project16 h1{
+    font-size: 45px;
+    font-family: League Spartan;
+}
+.project16 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project16 h5{
+    font-size: 40px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:30px;
+}
+
+.project17{
+      background-color: white;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+      width:1000;
+      margin-top: 50px;
+      text-align: center;
+    } 
+.project17 h1{
+    font-size: 45px;
+    font-family: League Spartan;
+}
+.project17 p{
+    font-size: 20px;
+    text-align:justify-center;
+}
+.project17 h5{
+    font-size: 40px;
+    font-family: League Spartan;
+    text-align:center;
+    padding:30px;
+}
+
+
+.Profile{
+  width: 100px;          
+  height: 80spx;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0;
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+
+}
+
+   .LoginPage{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.LoginPage:hover {
+  transform: scale(1.5);
+}
+    
+    #about{
+      line-height:25px;
+      text-align: justify;
+     }
+
+.E-mail_Template{
+  width: 100%;         
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.E-mail_Template:hover {
+  transform: scale(1.5);
+}
+
+.Restuarant_Menu{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Restuarant_Menu:hover{
+  transform: scale(1.5);
+}
+
+.E-Commerce{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.E-Commerce:hover{
+  transform: scale(1.5);
+}
+
+.Elderly_Care_UI_Project{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Elderly_Care_UI_Project:hover{
+  transform: scale(1.5);
+}
+
+.Elderly_Care_AI_Powered_App_Ui_Design{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Elderly_Care_AI_Powered_App_Ui_Design:hover{
+  transform: scale(1.5);
+}
+
+.Take_care{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Take_care:hover{
+  transform: scale(1.5);
+}
+
+.AI_App{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.AI_App:hover{
+  transform: scale(1.5);
+}
+
+.Frame_5{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Frame_5:hover{
+  transform: scale(1.5);
+}
+
+.Frame_6{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Frame_6:hover{
+  transform: scale(1.5);
+}
+
+.Logo_1{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Logo_1:hover{
+  transform: scale(1.5);
+}
+
+.Brand_style_guide{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Brand_style_guide:hover{
+  transform: scale(1.5);
+}
+
+.Brand_1{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Brand_1:hover{
+  transform: scale(1.5);
+}
+
+.Brand_2{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Brand_2:hover{
+  transform: scale(1.5);
+}
+
+.Brand_3{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Brand_3:hover{
+  transform: scale(1.5);
+}
+
+.Card_1{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Card_1:hover{
+  transform: scale(1.5);
+}
+
+.Card_2{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Card_2:hover{
+  transform: scale(1.5);
+}
+
+.Letter{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Letter:hover{
+  transform: scale(1.5);
+}
+
+.Banner{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Banner:hover{
+  transform: scale(1.5);
+}
+
+.Insta_1{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Insta_1:hover{
+  transform: scale(1.5);
+}
+
+.Insta_2{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Insta_2:hover{
+  transform: scale(1.5);
+}
+
+.Insta_3{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Insta_3:hover{
+  transform: scale(1.5);
+}
+
+.Insta_4{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Insta_4:hover{
+  transform: scale(1.5);
+}
+
+.Insta_Redesign{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Insta_Redesign:hover{
+  transform: scale(1.5);
+}
+
+.Insta{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Insta:hover{
+  transform: scale(1.5);
+}
+
+.Link_ReDesn{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Link_ReDesn:hover{
+  transform: scale(1.5);
+}
+
+.YT{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.YT:hover{
+  transform: scale(1.5);
+}
+
+.Ad_Banner{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Ad_Banner:hover{
+  transform: scale(1.5);
+}
+
+.Beauty_Banner{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Beauty_Banner:hover{
+  transform: scale(1.5);
+}
+
+.Ad{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Ad:hover{
+  transform: scale(1.5);
+}
+.Brochure_1{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Brochure_1:hover{
+  transform: scale(1.5);
+}
+
+.Brochure_2{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Brochure_2:hover{
+  transform: scale(1.5);
+}
+
+.Poster_1{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Poster_1:hover{
+  transform: scale(1.5);
+}
+
+.Poster_2{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Poster_2:hover{
+  transform: scale(1.5);
+}
+
+.Book{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Book:hover{
+  transform: scale(1.5);
+}
+
+.Logo{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Logo:hover{
+  transform: scale(1.5);
+}
+
+.Lily_1{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Lily_1:hover{
+  transform: scale(1.5);
+}
+
+.Lily_2{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Lily_2:hover{
+  transform: scale(1.5);
+}
+
+.Lily_3{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Lily_3:hover{
+  transform: scale(1.5);
+}
+
+.Lily_4{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Lily_4:hover{
+  transform: scale(1.5);
+}
+
+.Meme{
+  width: 100%;          
+  height: auto;
+  border-radius: 15px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin: 0 auto 20px;     /* Center horizontally */
+  max-width: 1000px; 
+  background: linear-gradient(90deg, #FF98C7, #FFF9DB, #9FEAFF);
+}
+
+.Meme:hover{
+  transform: scale(1.5);
+}
+
+
+   .side-by-side {
+  display: flex;
+  justify-content: space-between; /* space out sections */
+  gap: 40px; /* spacing between columns */
+  flex-wrap: wrap; /* wrap to next line on smaller screens */
+  margin-top: 20px;
+}
+
+.list-section {
+  flex: 1;              /* equal width for all 3 sections */
+  min-width: 200px;     /* minimum width to avoid too narrow */
+}
+
+.list-section ul {
+  list-style-type: none; /* bullet points */
+  padding-left: 0;    /* indent bullets */
+}
+
+.list-section h2 {
+  margin-bottom: 10px;
+}
+
+.list-section ul li::before {
+  content: "✨";
+  color: #FFA500; /* optional: change the star color */
+  margin-right: 8px;
+}
+
+
+
+ .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    .modal-content {
+      display: block;
+      margin: 5% auto;
+      max-width: 90%;
+      max-height: 80%;
+      border-radius: 10px;
+      transform: scale(0.5);
+      opacity: 0;
+      animation: zoomIn 0.4s ease forwards;
+    }
+
+    @keyframes zoomIn {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .close {
+      position: absolute;
+      top: 30px;
+      right: 50px;
+      color: #fff;
+      font-size: 40px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+.thumbnail {
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color:orange;
+}
+</style>
+</head>
+
+
+
+
+<body>
+  <header>
+    <h1>Welcome to My Design Portfolio</h1>
+    <h2>Hello! I'm Deepika A</h2> 
+    <h3>Aspiring Graphic Designer And UI/UX Designer</h3>
+  </header>
+
+  <section id="about">
+    <img src="C:\html/Profile.jpg" alt="Profile" class="Profile">
+    <h2>About Me</h2>
+    <p>I am a passionate BCA student actively seeking my skills while pursuing my education. With a deep enthusiasm for graphic design and having a interest in software and web development. I am expanding my expertise in both creative and technical domains.
+
+I am proficient in design and productivity tools such as Zoho Books, Canva, Figma, Photopea & MS Office, along with programming languages like HTML , CSS, JAVASCRIPT, PYTHON, C++ and JAVA. 
+
+I'm continuously refining my English proficiency and enhancing my communication skills day by day. 
+
+I am open to explore opportunities in graphic design, software development, and web development, where I can contribute meaningfully.I'm always eager to learn and acquire knowledge and skills.
+</p>
+
+<div class="side-by-side">
+    <div class="list-section">
+      <h2>Interests:</h2>
+      <ul>
+        <li>Graphic Design</li>
+        <li>UI UX DESIGN</li>
+        <li>Web development</li>
+        <li>Software development</li>
+        <li>Full stack development</li>
+      </ul>
+    </div>
+
+    <div class="list-section">
+      <h2>Tools:</h2>
+      <ul>
+        <li>Figma</li>
+        <li>Canva</li>
+        <li>Zoho Books</li>
+        <li>Sketchbook</li>
+        <li>MS Office</li>
+        <li>Photopea</li>
+      </ul>
+    </div>
+
+    <div class="list-section">
+      <h2>Programming  Languages:</h2>
+      <ul>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Python</li> 
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project1">
+      <h1>StudyHub App Sign-up Flow</h1>
+      <p>I created a clean, user-friendly login interface with a focus on layout, typography, and user experience.</p>
+      <img src="C:\html/LoginPage.png" alt="LoginPage" class="LoginPage" onclick="openModal(this)">
+      <p>🛠️ Tools Used:
+
+🔹 Figma – for designing the UI layout
+🔹 Canva – for mockups and visual presentation
+</p>
+    </div>
+    
+    
+    <div class="project2">
+      <h1>E-mail Template</h1>
+      <p>I created a professional, responsive email template with a clean layout and engaging visual elements, ideal for newsletters or service updates.</p>
+      <img id="thumb" src="C:\html/Email_Template.jpeg" alt="Email_Template" class="E-mail_Template" onclick="openModal(this)">
+<p>🛠️ Tools Used:
+
+🔹 Figma – for designing the UI layout
+🔹 Canva – for mockups and visual presentation
+</p>
+
+      </div>
+
+<div class="project3">
+      <h1>Restaurant Menu</h1>
+      <p> I created a visually appealing and easy-to-navigate digital restaurant menu, focusing on layout, typography, and user experience to enhance customer interaction and ordering ease.
+</p>
+      <img src="C:\html/Restuarant_Menu.png" alt="Restuarant_Menu" class="Restuarant_Menu" onclick="openModal(this)">
+      
+     
+<p>🛠️ Tools Used:
+
+🔹 Figma – for designing the UI layout
+🔹 Canva – for mockups and visual presentation
+</p>
+       </div>
+
+<div class="project4">
+      <h1>E-Commerce Website UI/UX Design</h1>
+      <p> I designed a clean, user-friendly e-commerce website interface that ensures smooth navigation, product visibility, and a seamless shopping experience for users.
+</p>
+      <img src="C:\html/E-Commerce.png" alt="E-Commerce" class="E-Commerce" onclick="openModal(this)">
+      
+     
+<p>🛠️ Tools Used:
+
+🔹 Figma – for designing the UI layout
+🔹 Canva – for mockups and visual presentation
+</p>
+       </div>
+ 
+   <div class="project5">
+      <h1>Take Care App</h1>
+      <p> Designed an intuitive and user friendly mobile interface created for elderly users, integrating AI-powered features such as health monitoring, emergency response, and caregiver connectivity. Developed as a part of the GeeksforGeeks x Accenture Hackathon, this design emphasizes clarity, usability, and inclusivity.
+</p>
+      <img src="C:\html/AI_App.png" alt="AI_App" class="AI_App" onclick="openModal(this)">
+      <img src="C:\html/Elderly Care UI Project.png" alt="Elderly Care UI Project" class="Elderly_Care_UI_Project" onclick="openModal(this)">
+      <img src="C:\html/Elderly Care AI Powered App Ui Design.png" alt="Elderly Care AI Powered App Ui Design" class="Elderly_Care_AI_Powered_App_Ui_Design" onclick="openModal(this)">
+      <img src="C:\html/Take_care.png" alt="Take_care" class="Take_care" onclick="openModal(this)">
+<p>🛠️ Tools Used:
+
+🔹 Figma – for designing the UI layout
+🔹 Canva – for mockups and visual presentation
+</p>
+       </div>
+
+<div class="project6">
+      <h1>Logo Design</h1>
+      <p> 🔹 App Name: Serenity</p>
+<p>🔹 Concept: A calming space for mental wellness, anonymous conversations, and professional psychological support.
+</p>
+     <h5>  Light Theme </h5>
+      <img src="C:\html/Frame_5.png" alt="Frame_5" class="Frame_5" onclick="openModal(this)">
+     <h5>  Dark Theme </h5>
+      <img src="C:\html/Frame_6.png" alt="Frame_6" class="Frame_6" onclick="openModal(this)">
+<p>Design Elements:</p>
+<p>🌺 Lotus Symbol:</p>
+
+<p>Represents inner peace, growth, and healing.</p>
+<p>The open petals reflect the idea of emotional openness and safe expression.</p>
+<p>🛠️ Tools Used:
+
+🔹 Figma – for designing the UI layout
+🔹 Canva – for mockups and visual presentation
+</p>
+       </div>
+
+<div class="project7">
+      <h1>Brand & Identity</h1>
+      <p> This is a personal logo featuring the stylized initials "MAJIC" in elegant black typography, enhanced with golden star elements to symbolize creativity and brilliance. The gradient border adds a modern, vibrant touch, giving the design a polished and unique identity.
+</p>
+     <h2>Personal Logo</h2>
+     <img src="C:\html/Logo_1.png" alt="Logo_1" class="Logo_1" onclick="openModal(this)">
+
+     <h2>Brand style guide</h2>
+     <img src="C:\html/Brand_style_guide.png" alt="Brand_style_guide" class="Brand_style_guide" onclick="openModal(this)">
+
+     <h2>Brand Mockups</h2>
+     <img src="C:\html/Brand_1.png" alt="Brand_1" class="Brand_1" onclick="openModal(this)">
+     <img src="C:\html/Brand_2.png" alt="Brand_2" class="Brand_2" onclick="openModal(this)">
+     <img src="C:\html/Brand_3.png" alt="Brand_3" class="Brand_3" onclick="openModal(this)">
+
+     <h2> Business Cards </h2>
+     <img src="C:\html/Card_1.png" alt="Card_1" class="Card_1" onclick="openModal(this)">
+     <img src="C:\html/Card_2.png" alt="Card_2" class="Card_2" onclick="openModal(this)">
+
+     <h2> Letter Head Design </h2>
+     <img src="C:\html/Letter.png" alt="Letter" class="Letter" onclick="openModal(this)">
+     
+     <h2> Website Homepage Banner Design </h2>
+     <img src="C:\html/Banner.png" alt="Banner" class="Banner" onclick="openModal(this)">
+     
+
+<p>🛠️ Tools Used:
+
+
+🔹 Canva – for creating the logo, mockups and visual presentation
+</p>
+       </div>
+
+<div class="project8">
+      <h1>Social Media Design - Instagram </h1>
+      <p> This is a modern fashion collage design featuring stylish images of a model, paired with elegant serif fonts spelling out "FASHION," "TRENDS," "HAPPY," and "LIFE".  The warm brown and beige color palette gives it a chic, editorial magazine vibe.
+
+</p>
+     <h5>  Instagram Post Design </h5>
+      <img src="C:\html/Insta_1.png" alt="Insta_1" class="Insta_1" onclick="openModal(this)">
+
+      <h5>  Instagram Post Design Mockups </h5>
+      <img src="C:\html/Insta_2.png" alt="Insta_2" class="Insta_2" onclick="openModal(this)">
+      <img src="C:\html/Insta_3.png" alt="Insta_3" class="Insta_3" onclick="openModal(this)">
+      <img src="C:\html/Insta_4.png" alt="Insta_4" class="Insta_4" onclick="openModal(this)">
+
+      <h5>  Instagram Before </h5>
+      <img src="C:\html/Insta.png" alt="Insta" class="Insta">
+      <h5>  Instagram After Redesign </h5>
+      <img src="C:\html/Insta_Redesign.png" alt="Insta_Redesign" class="Insta_Redesign" onclick="openModal(this)">
+<p>🛠️ Tools Used:
+
+🔹 Figma – for designing the UI layout
+🔹 Canva – for mockups and visual presentation
+</p>
+       </div>
+
+
+<div class="project9">
+      <h1>Social Media Design - LinkedIn </h1>
+      <p> This is a **LinkedIn redesign concept** featuring a clean and modern UI with improved navigation tabs like “Grow” and “Link Up.” It focuses on user experience by highlighting posts, networking features, and personalized job recommendations with a minimal and organized layout.
+
+</p>
+     <h5>  LinkedIn Redesign </h5>
+      <img src="C:\html/Link_ReDesn.png" alt="Link_ReDesn" class="Link_ReDesn" onclick="openModal(this)">
+
+<p>🛠️ Tools Used:
+
+🔹 Figma – for designing the UI layout
+🔹 Canva – for mockups and visual presentation
+</p>
+       </div>
+
+<div class="project10">
+      <h1>YouTube - Thumbnail Design </h1>
+      <p> This is a **YouTube thumbnail design** promoting impactful books with bold, eye-catching text: *"These Books Changed My Life."* It uses expressive visuals like a surprised woman and a stack of books to evoke curiosity, paired with motivational captions to encourage clicks.
+
+</p>
+      <img src="C:\html/YT.png" alt="YT" class="YT" onclick="openModal(this)"> 
+
+<p>🛠️ Tools Used:
+
+🔹 Figma – for designing the UI layout
+🔹 Canva – for mockups and visual presentation
+</p>
+       </div>
+
+<div class="project11">
+      <h1>Banner Designs </h1>
+      <p> This **advertisement banner** promotes a skin-boosting serum with rose fragrance, highlighting benefits like instant radiance, hydration, and suitability for all skin types. The elegant design, glowing bottle image, and soft rose visuals create a luxurious, beauty-focused appeal.
+
+</p>
+      <h5>Advertisement Banner </h5>
+      <img src="C:\html/Ad_Banner.png" alt="Ad_Banner" class="Ad_Banner" onclick="openModal(this)">
+      <img src="C:\html/Beauty_Banner.png" alt="Beauty_Banner" class="Beauty_Banner" onclick="openModal(this)">
+      <img src="C:\html/Ad.png" alt="Ad" class="Ad" onclick="openModal(this)">
+<p>🛠️ Tools Used:
+
+🔹 Figma – for designing the UI layout
+🔹 Canva – for mockups and visual presentation
+</p>
+       </div>
+
+<div class="project12">
+      <h1>Brochure Design</h1>
+      <p> This vibrant and playful tri-fold brochure was designed to announce and inform students about an exciting EVS educational trip to Vandaloor Zoo, organized by the EVS Club of CTTE College. The design uses a nature-inspired theme with cute illustrations of animals such as lions, elephants, giraffes, monkeys, and birds to engage students and create enthusiasm.This brochure effectively combines informative content with engaging visuals, making it ideal for school and college-level trip announcements.
+</p>
+      <img src="C:\html/Brochure_1.png" alt="Brochure_1" class="Brochure_1" onclick="openModal(this)">
+      <img src="C:\html/Brochure_2.png" alt="Brochure_2" class="Brochure_2" onclick="openModal(this)">
+<p>🛠️ Tools Used:
+
+🔹 Canva – For creating the Brochure and for visual presentation
+</p>
+       </div>
+
+<div class="project13">
+      <h1>Poster Design </h1>
+      <p> In this section of my portfolio, I have showcased a formal poster design created for an academic event at Chevalier T. Thomas Elizabeth College for Women.
+This poster reflects my ability to design for institutional and academic purposes, focusing on clarity, visual harmony, and event branding.
+
+</p>
+      <img src="C:\html/Poster_1.png" alt="Poster_1" class="Poster_1" onclick="openModal(this)">
+      <img src="C:\html/Poster_2.png" alt="Poster_2" class="Poster_2" onclick="openModal(this)">
+<p>🛠️ Tools Used:
+
+🔹 Canva – For creating the Poster Design and for visual presentation
+</p>
+       </div>
+
+<div class="project14">
+      <h1>Book Cover Design </h1>
+      <p> In this part of my portfolio, I have designed a book cover titled "Japanese Folklore", targeting young readers or anyone interested in magical stories and cultural myths.The theme focuses on the mystical and enchanting world of Japanese folklore, presented in a cute and fantasy-inspired visual style.This book cover reflects my skills in illustrative design, typography pairing, and the ability to match visuals with theme and audience. It shows how I can create appealing covers for children’s books, folklore collections, or fantasy genres.
+</p>
+      <img src="C:\html/Book.png" alt="Book" class="Book" onclick="openModal(this)">
+
+<p>🛠️ Tools Used:
+
+🔹 Canva – For creating the Book and the Book Cover Design and for visual presentation
+</p> 
+      </div>
+
+<div class="project15">
+      <h1>Lily - The AI Helper APP </h1>
+      <p> This project showcases two key user interface (UI) screens for a mobile application, focusing on the onboarding and login experience. The design aims to create a friendly, engaging, and intuitive interaction for users, utilizing a whimsical mushroom character and a warm, inviting color palette.
+</p>
+      <img src="C:\html/Lily_1.png" alt="Lily_1" class="Lily_1" onclick="openModal(this)">
+      <img src="C:\html/Lily_2.png" alt="Lily_2" class="Lily_2" onclick="openModal(this)">
+      <img src="C:\html/Lily_3.png" alt="Lily_3" class="Lily_3" onclick="openModal(this)">
+      <img src="C:\html/Lily_4.png" alt="Lily_4" class="Lily_4" onclick="openModal(this)">
+
+<p>🛠️ Tools Used:
+
+🔹 Figma – for designing the UI layout
+🔹 Canva – for mockups and visual presentation
+</p> 
+      </div>
+
+<div class="project16">
+      <h1>Logo Designs </h1>
+      <p> This section showcases a selection of my logo design projects, demonstrating my ability to create distinctive and memorable brand identities across various styles and industry needs. My process involves conceptualization, typography selection, color theory, and graphic elements to craft logos that effectively represent a brand's essence and values.
+</p>
+      <img src="C:\html/Logo.png" alt="Logo" class="Logo" onclick="openModal(this)">
+
+<p>🛠️ Tools Used:
+
+🔹 Canva – For creating the Logo and visual presentation
+</p> 
+      </div>
+
+<div class="project17">
+      <h1>Meme Creations </h1>
+      <p> This section highlights my ability to create engaging and shareable visual content, specifically memes, to communicate ideas effectively and connect with an audience through humor and relatability.
+</p>
+      <img src="C:\html/Meme.png" alt="Meme" class="Meme" onclick="openModal(this)">
+
+<p>🛠️ Tools Used:
+
+🔹 Canva – For creating the meme and visual presentation
+</p> 
+      </div>
+      </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a>deepika20060208@gmail.com</a></p>
+    <p>LinkedIn: <a href="www.linkedin.com/in/deepika-a-21754b302" target="_blank"> 🔗 Click the link 👉 Let's Connect and Collaborate!</a></p>
+    <p>GitHub: <a href="https://github.com/DeepikaA777/UI-UX-Designs/blob/main/Login%20Page.png" target="_blank"> 🔗 Click the link to check out my design on GitHub</a></p>
+    <p>Behance: <a href="https://www.behance.net/deepikaa16.png" target="_blank"> 🔗 Click the link to check out my creative designs on Behance </a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Deepika A. All rights reserved.</p>
+    <p> ✨ Thanks for visiting my website ✨</p>
+    <p>🙏</p>
+  </footer>
+
+
+
+<div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+ 
+<script>
+    function openModal(imgElement) {
+      const modal = document.getElementById("imageModal");
+      const modalImg = document.getElementById("modalImage");
+      modal.style.display = "block";
+      modalImg.src = imgElement.src;
+    }
+
+    function closeModal() {
+      document.getElementById("imageModal").style.display = "none";
+    }
+  </script>
+
+
+
+</body>
+</html>
+
+
+
